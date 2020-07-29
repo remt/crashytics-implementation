@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28B98AC724D17C220035DCF5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28B98AC624D17C220035DCF5 /* GoogleService-Info.plist */; };
 		28E6CBCE24D177BE0041BB03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E6CBCD24D177BE0041BB03 /* AppDelegate.swift */; };
 		28E6CBD024D177BE0041BB03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E6CBCF24D177BE0041BB03 /* SceneDelegate.swift */; };
 		28E6CBD224D177BE0041BB03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E6CBD124D177BE0041BB03 /* ViewController.swift */; };
 		28E6CBD524D177BF0041BB03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E6CBD324D177BF0041BB03 /* Main.storyboard */; };
 		28E6CBD724D177C70041BB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E6CBD624D177C70041BB03 /* Assets.xcassets */; };
 		28E6CBDA24D177C70041BB03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E6CBD824D177C70041BB03 /* LaunchScreen.storyboard */; };
+		41290E5D06856730684124CF /* Pods_MyNewCrashlyticsTestWithUniqueBundle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18C9A5E0BB7CD2457343E56 /* Pods_MyNewCrashlyticsTestWithUniqueBundle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26EDFA57430D89FDF6565DD4 /* Pods-MyNewCrashlyticsTestWithUniqueBundle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyNewCrashlyticsTestWithUniqueBundle.debug.xcconfig"; path = "Target Support Files/Pods-MyNewCrashlyticsTestWithUniqueBundle/Pods-MyNewCrashlyticsTestWithUniqueBundle.debug.xcconfig"; sourceTree = "<group>"; };
+		28B98AC624D17C220035DCF5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		28E6CBCA24D177BE0041BB03 /* MyNewCrashlyticsTestWithUniqueBundle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNewCrashlyticsTestWithUniqueBundle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E6CBCD24D177BE0041BB03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28E6CBCF24D177BE0041BB03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		28E6CBD624D177C70041BB03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28E6CBD924D177C70041BB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28E6CBDB24D177C70041BB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C251CFD49066FAEF236A67B /* Pods-MyNewCrashlyticsTestWithUniqueBundle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyNewCrashlyticsTestWithUniqueBundle.release.xcconfig"; path = "Target Support Files/Pods-MyNewCrashlyticsTestWithUniqueBundle/Pods-MyNewCrashlyticsTestWithUniqueBundle.release.xcconfig"; sourceTree = "<group>"; };
+		A18C9A5E0BB7CD2457343E56 /* Pods_MyNewCrashlyticsTestWithUniqueBundle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyNewCrashlyticsTestWithUniqueBundle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41290E5D06856730684124CF /* Pods_MyNewCrashlyticsTestWithUniqueBundle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2671ABAEF28949FC8D26DE4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A18C9A5E0BB7CD2457343E56 /* Pods_MyNewCrashlyticsTestWithUniqueBundle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		28E6CBC124D177BE0041BB03 = {
 			isa = PBXGroup;
 			children = (
 				28E6CBCC24D177BE0041BB03 /* MyNewCrashlyticsTestWithUniqueBundle */,
 				28E6CBCB24D177BE0041BB03 /* Products */,
+				8C6CFC72E8EACA46A1E9E103 /* Pods */,
+				2671ABAEF28949FC8D26DE4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +75,7 @@
 			children = (
 				28E6CBCD24D177BE0041BB03 /* AppDelegate.swift */,
 				28E6CBCF24D177BE0041BB03 /* SceneDelegate.swift */,
+				28B98AC624D17C220035DCF5 /* GoogleService-Info.plist */,
 				28E6CBD124D177BE0041BB03 /* ViewController.swift */,
 				28E6CBD324D177BF0041BB03 /* Main.storyboard */,
 				28E6CBD624D177C70041BB03 /* Assets.xcassets */,
@@ -67,6 +85,16 @@
 			path = MyNewCrashlyticsTestWithUniqueBundle;
 			sourceTree = "<group>";
 		};
+		8C6CFC72E8EACA46A1E9E103 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26EDFA57430D89FDF6565DD4 /* Pods-MyNewCrashlyticsTestWithUniqueBundle.debug.xcconfig */,
+				7C251CFD49066FAEF236A67B /* Pods-MyNewCrashlyticsTestWithUniqueBundle.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28E6CBDE24D177C70041BB03 /* Build configuration list for PBXNativeTarget "MyNewCrashlyticsTestWithUniqueBundle" */;
 			buildPhases = (
+				82D6AA2C72C968632904F1BB /* [CP] Check Pods Manifest.lock */,
 				28E6CBC624D177BE0041BB03 /* Sources */,
 				28E6CBC724D177BE0041BB03 /* Frameworks */,
 				28E6CBC824D177BE0041BB03 /* Resources */,
+				4845A4C2327E7D3A394271E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +156,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				28E6CBDA24D177C70041BB03 /* LaunchScreen.storyboard in Resources */,
+				28B98AC724D17C220035DCF5 /* GoogleService-Info.plist in Resources */,
 				28E6CBD724D177C70041BB03 /* Assets.xcassets in Resources */,
 				28E6CBD524D177BF0041BB03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4845A4C2327E7D3A394271E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyNewCrashlyticsTestWithUniqueBundle/Pods-MyNewCrashlyticsTestWithUniqueBundle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyNewCrashlyticsTestWithUniqueBundle/Pods-MyNewCrashlyticsTestWithUniqueBundle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyNewCrashlyticsTestWithUniqueBundle/Pods-MyNewCrashlyticsTestWithUniqueBundle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82D6AA2C72C968632904F1BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyNewCrashlyticsTestWithUniqueBundle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28E6CBC624D177BE0041BB03 /* Sources */ = {
@@ -282,11 +355,13 @@
 		};
 		28E6CBDF24D177C70041BB03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26EDFA57430D89FDF6565DD4 /* Pods-MyNewCrashlyticsTestWithUniqueBundle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TKW57UXDM3;
 				INFOPLIST_FILE = MyNewCrashlyticsTestWithUniqueBundle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +375,13 @@
 		};
 		28E6CBE024D177C70041BB03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C251CFD49066FAEF236A67B /* Pods-MyNewCrashlyticsTestWithUniqueBundle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TKW57UXDM3;
 				INFOPLIST_FILE = MyNewCrashlyticsTestWithUniqueBundle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,6 @@
+framework module Pods_MyNewCrashlyticsTestWithUniqueBundle {
+  umbrella header "Pods-MyNewCrashlyticsTestWithUniqueBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}
