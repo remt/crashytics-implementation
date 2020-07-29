@@ -19,6 +19,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ab-d5-tka">
                                 <rect key="frame" x="162" y="433" width="90" height="30"/>
                                 <state key="normal" title="Crash Button"/>
+                                <connections>
+                                    <action selector="crash:" destination="BYZ-38-t0r" eventType="touchDown" id="D29-ur-11d"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
